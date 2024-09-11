@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "bioma": "savana",
+        "tamanho_total": 10,
+        "animais_existentes": [
+            {
+                "animal":"macaco",
+                "quantidade": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "bioma": "floresta",
+        "tamanho_total": 5,
+        "animais_existentes": []
+    },
+    {
+        "id": 3,
+        "bioma": "savana e rio",
+        "tamanho_total": 7,
+        "animais_existentes": [
+            {
+                "animal":"gazela",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "bioma": "rio",
+        "tamanho_total": 8,
+        "animais_existentes": []
+    },
+    {
+        "id": 5,
+        "bioma": "savana",
+        "tamanho_total": 9,
+        "animais_existentes": [
+            {
+                "animal":"leão",
+                "quantidade": 1
+            }
+        ]
+    }
+]
