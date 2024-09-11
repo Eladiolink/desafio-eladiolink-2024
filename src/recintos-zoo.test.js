@@ -100,12 +100,3 @@ describe('Recintos do Zoologico', () => {
     });
 
 });
-
-/*
-LEAO
-LEOPARDO
-CROCODILO
-MACACO
-GAZELA
-HIPOPOTAMO
-*/
