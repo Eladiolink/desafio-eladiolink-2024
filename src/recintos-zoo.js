@@ -1,4 +1,3 @@
-import { ObterDados } from './utils/obter-dados.js';
 import { ValidarAnimal } from './validar-animal.js';
 
 class RecintosZoo {
