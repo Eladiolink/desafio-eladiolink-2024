@@ -1,9 +1,6 @@
 import { ObterDados } from './utils/obter-dados.js';
 import { TratarDado } from './utils/tratar-dado.js';
 
-// import { ObterDados } from './utils/obter-dados';
-// import { TratarDado } from './utils/tratar-dado';
-
 class ValidarAnimal {
 
     constructor() {
@@ -48,9 +45,8 @@ class ValidarAnimal {
 
                 let ocupacaoAtual = this.espacoAtual(elm, ANIMAL)
 
-                if (res.length == 0) {
+                if (res.length == 0)
                     recintos.recintosViaveis.push(`Recinto ${elm.id} (espaço livre: ${elm.tamanho_total - (tamanho + ocupacaoAtual)} total: ${elm.tamanho_total})`)
-                }
 
             }
         })

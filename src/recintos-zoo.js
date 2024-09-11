@@ -1,15 +1,10 @@
 import { ObterDados } from './utils/obter-dados.js';
 import { ValidarAnimal } from './validar-animal.js';
 
-// import { ObterDados } from './utils/obter-dados';
-// import { ValidarAnimal } from './validar-animal';
-
 class RecintosZoo {
 
     analisaRecintos(animal, quantidade) {
         var res = {}
-
-        const Recinto = ObterDados.pegarRecintos()
 
         const validar = new ValidarAnimal()
 
